@@ -138,4 +138,40 @@ Various asynchronous functions are provided for API interaction:
 5. Open a Pull Request.
 
 
+youtube-audio-api/
+│
+├── downloader/
+│   ├── admin.py
+│   ├── apiview.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── utils.py
+│   ├── views.py
+│   ├── migrations/
+│   │   └── 0001_initial.py
+│   ├── management/
+│   │   └── commands/
+│   │       └── start_background_tasks.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── downloader/
+│   │   │   ├── add_channel.html
+│   │   │   ├── audio_list.html
+│   │   │   ├── channel_list.html
+│   │   │   ├── login.html
+│   │   │   ├── media_list.html
+│   │   │   └── playlist_list.html
+
+├── ytaudio/
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── README.md
+├── db.sqlite3
+└── requirements.txt
+
 
