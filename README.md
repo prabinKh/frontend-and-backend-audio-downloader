@@ -137,7 +137,6 @@ Various asynchronous functions are provided for API interaction:
 4. Push to the branch (`git push origin feature/foo`).
 5. Open a Pull Request.
 
-
 youtube-audio-api/
 │
 ├── downloader/
@@ -163,15 +162,14 @@ youtube-audio-api/
 │   │   │   ├── login.html
 │   │   │   ├── media_list.html
 │   │   │   └── playlist_list.html
-
+│
 ├── ytaudio/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
+│
 ├── README.md
 ├── db.sqlite3
-└── requirements.txt
-
-
+├── requirements.txt
