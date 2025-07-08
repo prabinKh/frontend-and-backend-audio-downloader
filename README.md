@@ -173,3 +173,76 @@ youtube-audio-api/
 ├── README.md
 ├── db.sqlite3
 ├── requirements.txt
+
+
+
+
+
+frontend-and-backend-audio-downloader/
+└── song/
+    ├── app/
+    │   ├── album/
+    │   │   └── [id]/
+    │   │       └── page.tsx
+    │   ├── artist/
+    │   │   └── page.tsx
+    │   ├── charts/
+    │   ├── concerts/
+    │   ├── create-playlist/
+    │   │   └── page.tsx
+    │   ├── downloaded/
+    │   ├── library/
+    │   ├── likedsongs/
+    │   ├── playlist/
+    │   │   └── [id]/
+    │   │       └── page.tsx
+    │   ├── podcasts/
+    │   ├── radio/
+    │   ├── search/
+    │   ├── signup/
+    │   ├── layout.tsx
+    │   └── page.tsx
+    ├── components/
+    │   ├── Card.tsx
+    │   ├── ClientArtistPage.tsx
+    │   ├── ContentHeader.tsx
+    │   ├── MainContent.tsx
+    │   ├── MiniPlayer.tsx
+    │   ├── MusicPlayer.tsx
+    │   ├── PlayButton.tsx
+    │   ├── PlaylistCard.tsx
+    │   ├── SearchBar.tsx
+    │   ├── Sidebar.tsx
+    │   ├── SongItem.tsx
+    │   └── VisualizerBars.tsx
+    ├── data/
+    │   └── mockData.ts
+    ├── lib/
+    │   ├── api.js
+    │   └── types.ts
+    ├── hooks/
+    │   ├── useLike.ts
+    │   ├── useScroll.ts
+    │   ├── useTimeOfDay.ts
+    │   └── useViewMode.ts
+    ├── public/
+    ├── style/
+    │   └── globals.css
+    ├── types/
+    │   └── index.ts
+    ├── README.md
+    ├── next.config.ts
+    ├── package.json
+    ├── postcss.config.mjs
+    └── tsconfig.json
+
+
+
+
+
+
+
+
+
+
+
