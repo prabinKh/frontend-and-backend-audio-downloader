@@ -57,6 +57,5 @@ Various asynchronous functions are provided for API interaction:
 4. Push to the branch (`git push origin feature/foo`).
 5. Open a Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+
